@@ -2,7 +2,11 @@
 <h3 align="center">A passionate DevOps engineer</h3>
 
 <p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=rizlas" alt="rizlas" /></a> </p>
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=rizlas&label=Profile%20views&color=0e75b6&style=flat" alt="rizlas" /> </p>
+<p align="left"> 
+<img src="https://komarev.com/ghpvc/?username=rizlas&label=Profile%20views&color=0e75b6&style=flat" alt="rizlas" /> 
+<img alt="GitHub followers" src="https://img.shields.io/github/followers/rizlas?style=social">
+<img alt="GitHub User's stars" src="https://img.shields.io/github/stars/rizlas?style=social">
+</p>
 
 - 🔭 I’m currently working on **automate the world**
 
