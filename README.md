@@ -30,7 +30,7 @@
 </picture>
 </p>
 
-<p align="center"><img src="https://readme-jokes.vercel.app/api" alt="Jokes Card" width="500" /></p>
+<p align="center"><img src="https://readme-jokes.vercel.app/api" alt="Jokes Card" height="180" /></p>
 
 <hr />
 <p align="center"><img src="https://avatars1.githubusercontent.com/u/8522635?s=96&v=4" /><br/>#followtheturtle</p>
