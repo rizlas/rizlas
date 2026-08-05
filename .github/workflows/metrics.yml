@@ -1,0 +1,26 @@
+name: generate metrics
+
+on:
+  schedule:
+    - cron: "0 */24 * * *"
+  workflow_dispatch: {}
+  push:
+    branches:
+      - master
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - name: generate github-metrics.svg
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: rizlas
+          template: classic
+          base: header, activity, community, repositories
+          filename: github-metrics.svg
+          committer_branch: output
+          committer_message: "chore: update metrics"

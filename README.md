@@ -20,7 +20,7 @@
 
 - ⚡ Fun fact **I love bots!**
 
-<p align="center"><img src="https://github-readme-stats.vercel.app/api?username=rizlas&show_icons=true&theme=tokyonight&hide_border=true" alt="rizlas" />
+<p align="center"><img src="https://raw.githubusercontent.com/rizlas/rizlas/output/github-metrics.svg" alt="rizlas metrics" />
 
 <p align="center">
 <picture>
