@@ -2,7 +2,7 @@ name: generate metrics
 
 on:
   schedule:
-    - cron: "0 */24 * * *"
+    - cron: "0 0 * * *"
   workflow_dispatch: {}
   push:
     branches:
@@ -20,7 +20,8 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           user: rizlas
           template: classic
-          base: header, activity, community, repositories
+          base: header
+          plugin_introduction: yes
           filename: github-metrics.svg
           committer_branch: output
           committer_message: "chore: update metrics"
